@@ -6,10 +6,6 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense,Dropout,Convolution2D,MaxPooling2D,Flatten
 from tensorflow.keras.optimizers import Adam
 
-# In[6]:
-
-
-# from tensorflow.examples.tutorials.mnist import input_data
 
 # MNIST_data指的是存放数据的文件夹路径，one_hot=True 为采用one_hot的编码方式编码标签
 # mnist = input_data.read_data_sets('../datasets/MNIST_data/', one_hot=True)
